@@ -1,0 +1,66 @@
+<!-- ====== ADMISSION PAGE (admission.html) ====== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions - Vidyadhara Nursery School</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="images/logo2.jpg" alt="Logo">
+      <span class="school-name">VIDYADHARA NURSERY SCHOOL</span>
+    </div>
+  
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="admission.html">Admission</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      ☰
+
+    </div>
+  </header>
+
+  <div class="container mt-5">
+    <section id="admission">
+    <h1>Admissions</h1>
+    <p>We welcome children aged 2 to 5 years. Our admissions are open throughout the year, subject to availability of seats.</p>
+    <h4>Steps to Enroll:</h4>
+    <ul>
+      <li>Visit our school and meet our staff.</li>
+      <li>Fill out the admission form provided at the office.</li>
+      <li>Submit the required documents (birth certificate, photos, etc.).</li>
+      <li>Pay the admission and tuition fees.</li>
+    </ul>
+    <a href="contact.html" class="btn btn-custom">Contact for Enquiry</a>
+  </div>
+
+  <footer>
+    <div class="footer-left">
+      <p><strong>Vidyadhara Nursery School</strong> empowers children to grow through joyful learning and creativity. We provide a nurturing environment where children thrive and explore.</p>
+      <p style="margin-top: 1rem;">© 2025 Vidyadhara Nursery School. All rights reserved.</p>
+    </div>
+  
+    <!-- Watermark -->
+    <div class="footer-watermark">VIDYADHARA</div>
+  </footer>
+  
+  <!-- JS should go outside footer and be syntactically correct -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+</section>
+</body>
+</html>

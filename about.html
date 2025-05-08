@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Vidyadhara Nursery School</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet" />
+  <style>
+    /* Leadership Box Styling */
+    .leadership-box {
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee); /* Gradient Box */
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+      margin: 30px auto;
+      font-size: 1.1rem;
+      color: #333;
+    }
+    .leadership-box h4 {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .faculty-heading {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="images/logo2.jpg" alt="Logo">
+      <span class="school-name">VIDYADHARA NURSERY SCHOOL</span>
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="admission.html">Admission</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <div class="container mt-5">
+    <section id="about">
+      <h1>About Us</h1>
+      <p>Established in 2011, Vidyadhara Nursery School has been committed to nurturing young minds with a balance of academic excellence, creative expression, and joyful learning. We provide a warm, safe, and inspiring environment where children are encouraged to explore, play, and grow intellectually and emotionally.</p>
+
+      <h2 class="faculty-heading"><b>Our Leadership</b></h2>
+      <div class="leadership-box">
+        <h4>Mr. Naveen – Secretary</h4>
+        <p>Oversees administrative functions and fosters effective school-parent collaboration, ensuring that the school’s vision seamlessly integrates into its daily operations and strategic goals</p>
+        <hr />
+        <h4>Mrs. Suma – Principal</h4>
+        <p>Guiding academic excellence and fostering student development since 2011, with unwavering dedication and passion, ensuring the holistic growth of every child.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-left">
+      <p><strong>Vidyadhara Nursery School</strong> empowers children to grow through joyful learning and creativity. We provide a nurturing environment where children thrive and explore.</p>
+
+      <p style="margin-top: 1rem;">© 2025 Vidyadhara Nursery School. All rights reserved.</p>
+    </div>
+    <div class="footer-watermark">VIDYADHARA</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
